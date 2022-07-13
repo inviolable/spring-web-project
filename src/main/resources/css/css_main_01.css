@@ -1,0 +1,89 @@
+@charset "UTF-8";
+#logo{
+	width:100px;
+	height:100px;
+	position:relative;
+	left:50px;
+	top:50px;
+	margin-left:100px;
+	margin-bottom:100px;
+}
+
+#loginAndjoin{
+	border:2px solid blue;
+	position:relative;
+	top:50px;
+	width:350px;
+	height:200px;
+	padding-top:20px;
+	text-align:center;	
+	margin-left:100px;
+}
+
+#board{
+	width:300px;
+	height:250px;
+	position:relative;
+	top:100px;
+	bottom:100px;
+	margin:0px 0px 100px 120px;
+}
+ 
+#naver{
+	position:relative;
+	top:14px;
+	width:300px;
+	height:50px;
+}
+
+#id{
+	width:300px;
+	height:30px;
+}
+
+#pass{
+	position:relative;
+	top:5px;
+	width:300px;
+	height:30px;
+}
+
+#button4{
+	position:relative;
+	top:10px;
+	width:150px;
+}
+
+#additional{
+	position:relative;
+	top:14px;
+}
+
+body{
+	height:800px;
+}
+
+
+#banner{
+	position:absolute;
+	top:250px;
+	left:700px;
+	width:500px;
+	height:500px;
+	border:2px solid green;
+}
+
+#banner_content{
+	text-align:center;
+	line-height:350px;
+	
+}
+
+.a1{
+	text-decoration:none;
+}
+
+.a1:hover{
+	color:#B70095;
+	cursor:pointer;
+}

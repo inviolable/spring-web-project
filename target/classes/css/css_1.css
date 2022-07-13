@@ -1,0 +1,70 @@
+@charset "UTF-8";
+#body1{
+	width:300px;
+	height:800px;
+}
+
+#login_button{
+	position:absolute;
+	right:40px; top:40px;
+}
+
+img {border-radius:50%; border:5px solid   white;}
+/*이미지가 정사각형이어야지만 가능한 방법*/
+
+/*
+img {width:200px; height:200px; object-fit:cover;}*/
+/*이미지 높이, 너비 달라도 가능한 방법*/
+
+.join_enterbox{	
+	position:relative;
+	top:0px;
+	left:0px;
+	width:150px; height:20px; border:2px solid red;
+}
+
+.join_enterbox:hover{
+	border-color:blue;
+}
+
+table#join_form{
+	width:450px;
+	height:350px;
+	border:5px solid blue;
+	
+}
+
+
+#td1{
+	
+	width:400px;
+	height:5px;
+	text-align:center;
+}
+
+#a11{
+	text-decoration:none;
+}
+
+#a11:hover{
+	color:green;
+}
+
+td{
+	vertical-align:top;
+	height:25px;
+}
+
+#submit1{
+	text-align:center;
+	position:relative;
+	top:0px; left:130px;
+	background:orange;
+	
+}
+
+#submit2{
+	position:relative;
+	top:0px; left:100px;
+	background:green;
+}
